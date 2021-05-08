@@ -1,0 +1,121 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-image {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.name-headline {
+  text-align: left;
+  margin-top: -140px;
+}
+
+
+.content, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 170px;
+  height: 180px;
+  border-radius: 15%;
+  text-align: left;
+}
+
+.profile-card {
+  width: 700px;
+  height: 500px;
+  max-width: calc(100vw - 10px);
+  max-height: calc(100vw-15%);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.name-headline {
+  margin-left: 80px;
+}
+
+.about {
+  text-align: justify;
+}
+
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url('assets/seastar-bottle.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+
+img {
+  padding: 1px;
+  background-color: #666;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+img {
+  ...
+  filter: grayscale(50%);
+}
+
+img:hover {
+  ...
+  filter: grayscale(20%);
+}
