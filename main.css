@@ -119,3 +119,18 @@ img:hover {
   ...
   filter: grayscale(20%);
 }
+
+.head {
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  max-width: 40%;
+  max-height: inherit;
+}
+
+.name-headline {
+  position: absolute;
+  max-width: 60%;
+}
